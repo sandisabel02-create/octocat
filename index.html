@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roleta Summer Party</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎉 Summer Party Wheel 🎉</h1>
+        <p class="subtitle">Clique no botão para girar a roleta!</p>
+        
+        <div class="wheel-container">
+            <canvas id="wheelCanvas" width="500" height="500"></canvas>
+            <div class="pointer"></div>
+        </div>
+        
+        <div class="controls">
+            <button id="spinBtn" class="spin-button">GIRAR ROLETA</button>
+            <button id="resetBtn" class="reset-button">REINICIAR</button>
+        </div>
+        
+        <div class="result" id="result"></div>
+        
+        <div class="participants">
+            <h2>Colaboradores</h2>
+            <div id="participantsList" class="participants-list"></div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
